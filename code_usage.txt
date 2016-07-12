@@ -1,0 +1,7 @@
+Usage for Learning to Link model:
+
+1. use GeneFeatures.GenerateFeatures() generate training data
+2. train binary classifier
+3. use GeneFeatures.TestDataSet() generate test data
+4. apply the trained classifier on the test data
+5. show result: BenchmarkMain calls newAnnotator4.java
