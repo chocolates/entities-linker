@@ -10,7 +10,7 @@ This project is based on this framework: https://github.com/marcocor/query-annot
 5. apply the trained classifier on the test data
 6. show result: BenchmarkMain calls newAnnotator4.java
 
-## project hierarchy
+## Project hierarchy
 Its hierarchy is almostly same as framework (https://github.com/marcocor/query-annotator-stub). Important changes include:
 - [newAnnotator4.java](src/main/java/annotatorstub/annotator/newAnnotator4.java) disambigulate candidate set based on the result of the trained classifier.
 - [EmbeddingHelper.java](src/main/java/annotatorstub/utils/EmbeddingHelper.java) is used to construct contextual features using word embedding.
